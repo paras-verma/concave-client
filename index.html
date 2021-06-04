@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Focal Cards</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id='body'>
+<body id='body' class="light">
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+      <em>Enable Dark Mode!</em>
+    </div>
+
     <concave-client></concave-client>
     <script type="module" src="./components/concave.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
